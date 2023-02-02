@@ -11,7 +11,6 @@ public class CustomerController {
     public List<Customer> getAllCustomers(){
         Customer customer1=new Customer(100,"vamsikrm");
         Customer customer2=new Customer(200,"harsha");
-        System.out.println("getAllCustomers called from sysout");
         return Arrays.asList(customer1,customer2);
     }
 }
